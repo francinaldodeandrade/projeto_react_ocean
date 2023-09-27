@@ -1,0 +1,1 @@
+/_eslint jsx-a11y/anchor-is-valid: 0_/
