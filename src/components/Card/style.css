@@ -1,19 +1,18 @@
-.box{
+.box{    
     border: #ffffff solid 1px;
-    padding: 0.5rem;
+    
     border-radius: 1rem ;
     transition: 0.115s;
     text-align: center;
     cursor: pointer;
-    max-width: 350px;
-   
+    max-width: 300px;
+    margin: 2rem;
   }
   
   .tags{
-    max-width: 200px;
     display:flex;
     flex-wrap: wrap;
-    justify-items:center;
+    justify-content: center;
     
   }
   
@@ -30,29 +29,30 @@
     border-radius: 1rem;
     max-width: 100%;
     height: 200px;
-    align-items: center;
-    object-fit: cover;
+   
   }
   
   .tag{
-    padding: 0.5rem;
+    
     background: #ffffffff;
     color: #000000;
     border-radius: 0.5rem;
-    justify-content: center;
-    margin-bottom: 0.25rem;
-    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    max-width: 200px;
+    width: 100px;
+   
+    
   }
   
   .label-tag{
-    padding-left: 0rem;
     text-align: left;
     max-width: 100px;
-    padding-left: 0.5rem;
+   
   }
   
   .box-label{
     display: flex;
     flex-direction:column; 
+    margin-left: 0.5rem;
   }
   
